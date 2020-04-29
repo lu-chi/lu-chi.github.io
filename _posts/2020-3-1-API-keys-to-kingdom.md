@@ -4,7 +4,7 @@ A list of services that might be necessary to have an API on to work with tools 
 theHarvester(https://github.com/laramies/theHarvester), Maltego(https://www.maltego.com/downloads/) or Recon-NG(https://github.com/lanmaster53/recon-ng) an so on:
 
 Service Name | Website 
------------- | ------------- | -------------
+------------ | ------------- 
 VirusTotal | https://developers.virustotal.com/reference 
 VirusShare | https://virusshare.com
 Hybrid-Analysis | https://www.hybrid-analysis.com/docs/api/v2
