@@ -1,7 +1,14 @@
+name: Lu Chi
 theme: jekyll-theme-midnight
 description: Threat Architect from Nowhere
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars2.githubusercontent.com/u/5080946?s=400&u=be182ac8f6c5ba0632301b2c94c2982815a046ee&v=4
+
+markdown: kramdown
+
+encoding            : "utf-8"
+markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+
 
 footer-links:
   email:
@@ -13,18 +20,17 @@ baseurl: ""
 
 permalink: /:title/
 
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-markdown: kramdown
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
+kramdown:
+  auto_ids          : true
+  entity_output     : as_char
+  toc_levels        : [1, 2, 3, 4, 5, 6]
+  smart_quotes      : lsquo,rsquo,ldquo,rdquo
+  input             : GFM
+  hard_wrap         : false
+  footnote_nr       : 1
+  show_warnings     : false
+  highlighter: rouge
+  
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
