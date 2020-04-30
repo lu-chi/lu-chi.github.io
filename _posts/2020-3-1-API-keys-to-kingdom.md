@@ -1,3 +1,7 @@
+---
+layout: post
+author: lu-chi
+---
 Services you definitely need an API for
 
 A list of services that might be necessary to have an API on to work with tools such as:
